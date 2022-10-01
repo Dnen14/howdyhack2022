@@ -5,4 +5,9 @@ const categories = ["Hot", "Cold", "Rainy", "Snowy", "Hiking",
 
 let banff = ["Cold", "Hiking", "Mountains", "Sight Seeing", "National Parks", "Water Activities"];
 
+<<<<<<< HEAD
 const placeDescription = 3;
+=======
+let denali = [];
+
+>>>>>>> 8baccc498a433be95b78ed9573e7e84a3d90642a
