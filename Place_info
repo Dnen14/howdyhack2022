@@ -1,0 +1,6 @@
+const categories = ["Hot", "Cold", "Rainy", "Snowy", "Hiking",
+"Fishing", "Sight Seeing", "Museums", "Skiing", "Surfing", "Relaxation",
+"National Parks", "Shopping", "Night Life", "Scuba", "Water Activities", 
+"Mountains", "Beaches", "Rain Forest", "City", "Historic Sights"];
+
+let banff = ["Cold", "Hiking", "Mountains", "Sight Seeing", "National Parks", "Water Activities"];
