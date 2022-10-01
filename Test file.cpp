@@ -1,8 +1,5 @@
 #include <iostream>
 
-using std::cout;
-
 int main(){
-
-    cout << "HOWDY" << endl;
+    return 0;
 }
