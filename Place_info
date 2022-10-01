@@ -4,3 +4,6 @@ const categories = ["Hot", "Cold", "Rainy", "Snowy", "Hiking",
 "Mountains", "Beaches", "Rain Forest", "City", "Historic Sights"];
 
 let banff = ["Cold", "Hiking", "Mountains", "Sight Seeing", "National Parks", "Water Activities"];
+
+let denali = [];
+
