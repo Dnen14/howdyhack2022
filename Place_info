@@ -56,16 +56,20 @@ const placeDescription = {
     "Caribbean": "The Caribbean islands are known for their sandy beaches and fun party life style.",
 };
 let iarray = []
-for (let i = 0; i < 19; i++) {
-    for (let j = 0; j < array[i].length; j++) {
-        // if click value is in the array
-        // find the i index and save that and create a running 
-        //append array[i] to iarray
-        //iarray.append(i);
-
-
-
+function inputFunction(personPreference){
+    const num = 0;
+    let outputArray = [];
+    for (let i = 0; i < 19; i++) {
+        for (let j = 0; j < array[i].length; j++) {
+            if(array[i][j].includes(personPreference)){
+                num++;
+                outputArray.push(array[i][j]);
+            }
+            if(num == 3){
+                break;
+            }
     }
+}
 }
 
 
