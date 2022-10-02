@@ -5,7 +5,7 @@ const categories = ["Hot", "Cold", "Rainy", "Snowy", "Hiking",
 
 
 
-const placeDescription = 3;
+
 
 
 
@@ -39,3 +39,35 @@ let array = [banff, denali, reykjavik, oslo, nyc, costa, canyon, cali, cancun, p
 hawaii, maldives, caribbean];
 
 console.log(array);
+const placeDescription = {
+    "Banff": "Banff National Park is located in the Canadian Rockies. It contains many special and easy access terrian including mountians, valleys, peaks, glaciers, forests, meadows and river.",
+    "Denali": "Denali National Park is Preserved is located in the Alaskan wilderness and contains North America's tallest peak. It's home to tundra, forests, glaciers, bears, wolves, moose and more. Some populat activites are biking, backpacking, hiking, and mountaineering",
+    "Reykjavik": "Reykjavik is located in Iceland. It houses National and Saga museums about Iceland's Viking history. Hallgrimskirkja church and Perlan glass dome give a beatiful view of the sea, while the Blue Lagoon Spa exemlifies the island's volcanic activity",
+    "Oslo" : "Oslo, Norway is has a great many amount of green spaces and museums, with an emphasis on maritime and viking sites. It is also famous for its ski-jumping hills.",
+    "New York City": "New York City, USA is one of the world's major commerical, financial, and cultural centers. Some of its most famous sites include Broadway Theater and skyscrapers.",
+    "Costa Rica": "Costa Rica is home to many historical sites, including the Pre-Columbian Gold Museum, as well as it's natural beaches, volcanoes and biodiversity. A great deal of wildlife resides in the Costa Rica jungles, including spider monkeys and queztal birds.",
+    "Grand Canyon": "Grand Canyon National Park in Arizona, USA is known for its grand viewpoints and the Colorado River. Many people say its one of the best places to watch sunrise and sunset.",
+    "California": "California, USA is known for its redwood forest, beaches, Sierra Neveda Mountains, farmlands, and deserts. Los Angeles is home to hollywood, as well as the Golden State Bridge, Alcatraz Island, and Cable cars.",
+    "Cancun": "Cancun is known for its beaches, numerous resorts and nightlife. Cancun is a popular location for college students during spring break.",
+    "Machu Picchu": "Maccu Picchu, Peru was built in the 15th century and later abandoned. It contains many unqiue buildings with its use at the time remaining a mystety",
+    "Cairo": "Cairo, Egypt is home to the Egyptian Museum and Tahrir Square with royal mummies and ancient artifacts. Cairo is home to the pyramids and the Great Sphinx, with a spectular view.",
+    "Maasai Mara": "Maasi Mara Natural Reserve in Kenya resembles the African wilderness and its wildlife. It's dotted with hills and plains along with the Maasai people that live there.",
+    "London": "London is the famous capital of England that contains Big Ben, Houses of Parliament, and the British monarchs. The London Eye observation provides a view of the whole city and its beauty",
+    "Singapore": "Singapore is the island nation with many unique city attractions",
+    "Seattle": "Seattle, Washington is the largest city in Washington and is home Microsoft, Amazon and the Space Needle.",
+    "Bejing": "Bejing China, known for its modern architecture along with its ancient sites such as the imperial palace. Bejing also houses the National Museum of China with many cultural relics.",
+    "Hawaii": "Hawaii is the only US State located off the mainland North America, and contains an archipelago of tropics",
+    "Maldives": "The Maldives are commonly known as the sunny side of live, and are known for their great beaches and oceanside activites.",
+    "Caribbean": "The Caribbean islands are known for their sandy beaches and fun party life style.",
+};
+
+console.log("Hi");
+
+
+
+
+
+
+
+let denali = [];
+
