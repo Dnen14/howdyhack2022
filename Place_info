@@ -1,6 +1,6 @@
 const categories = ["Hot", "Cold", "Rainy", "Snowy", "Hiking",
 "Fishing", "Sight Seeing", "Museums", "Skiing", "Surfing", "Relaxation",
-"National Parks", "Shopping", "Night Life", "Scuba", "Water Activities", 
+"National Parks", "Shopping", "Night Life", "Scuba", 
 "Mountains", "Beaches", "Rain Forest", "City", "Historic Sights"];
 
 
@@ -11,7 +11,7 @@ const categories = ["Hot", "Cold", "Rainy", "Snowy", "Hiking",
 
 
 
-const banff = ["Cold", "Hiking", "Mountains", "Sight Seeing", "National Parks", "Water Activities"]
+const banff = ["Cold", "Hiking", "Mountains", "Sight Seeing", "National Parks"]
 const denali = ["Cold", "Hiking", "Sight Seeing", "Mountains"]
 const reykjavik = ["Cold", "Hiking", "Sight Seeing", "Mountains"]
 const oslo = ["Cold", "Museums", "Skiing", "Snowy", "Hiking", "Sight Seeing"]
@@ -19,17 +19,17 @@ const nyc = ["Cold", "City", "Night Life"]
 const costa = ["Hot", "Hiking", "Relaxation", "Surfing", "Scuba", "Rain Forest"]
 const canyon = ["Hot", "Sight Seeing", "Hiking", "National Park"]
 const cali = ["Hot", "Beaches", "Hiking", "Fishing", "Surfing", ]
-const cancun = ["Hot", "Surfing", "Beaches", "Water Activities", "Night Life"]
+const cancun = ["Hot", "Surfing", "Beaches","Night Life"]
 const picchu = ["Hot", "Rainy", "Sight Seeing", "Hiking", "Mountains", "Historic Sights"]
 const cairo = ["Hot", "Sight Seeing", "City", "Shopping", "Historic Sights"]
 const maasai = ["Hot", "Hiking", "Sight Seeing"]            //kenya
 const london = ["Rainy", "Shopping", "City", "Historic Sights", "Museums"]
-const singapore = ["Rainy", "Night Life", "City", "Beach", "Water Activities"]
-const seattle = ["Rainy", "City", "Night Life", "Water Activities"]
-const beijing = ["Rainy", "Night Life", "City", "Historic SIghts", "Museums"]
-const hawaii = ["Hot", "Rainy", "Beach", "Water Activities", "Surfing", "Fishing", "Scuba", "Mountains", "Hiking", "Night Life"]
-const maldives = ["Hot", "Beach", "Water Activities", "Surfing", "Fishing", "Scuba", "Night Life"]
-const caribbean = ["Hot", "Beach", "Water Activities", "Surfing", "Fishing", "Scuba", "Night Life"]
+const singapore = ["Rainy", "Night Life", "City", "Beach"]
+const seattle = ["Rainy", "City", "Night Life"]
+const beijing = ["Rainy", "Night Life", "City", "Historic Sights", "Museums"]
+const hawaii = ["Hot", "Rainy", "Beach", "Surfing", "Fishing", "Scuba", "Mountains", "Hiking", "Night Life"]
+const maldives = ["Hot", "Beach", "Surfing", "Fishing", "Scuba", "Night Life"]
+const caribbean = ["Hot", "Beach", "Surfing", "Fishing", "Scuba", "Night Life"]
 
 let array = [banff, denali, reykjavik, oslo, nyc, costa, canyon, cali, cancun, picchu, cairo, maasai, london, singapore, seattle, beijing, 
 hawaii, maldives, caribbean];
