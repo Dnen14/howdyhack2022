@@ -58,12 +58,14 @@ const placeDescription = {
 let iarray = []
 function inputFunction(personPreference){
     const num = 0;
-    let outputArray = [];
+    let outputArrayName = []
+    let outputArrayDescription = [];
     for (let i = 0; i < 19; i++) {
         for (let j = 0; j < array[i].length; j++) {
             if(array[i][j].includes(personPreference)){
                 num++;
-                outputArray.push(array[i][j]);
+                outputArrayName.push(array[i]);
+                outputArrayDescription.push(placeDescription[i]);
             }
             if(num == 3){
                 break;
