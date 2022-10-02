@@ -36,7 +36,7 @@ hawaii, maldives, caribbean];
 
 const placeDescription = {
     banff: "Banff National Park is located in the Canadian Rockies. It contains many special and easy access terrian including mountians, valleys, peaks, glaciers, forests, meadows and river.",
-    denali: "Denali National Park is Preserved is located in the Alaskan wilderness and contains North America's tallest peak. It's home to tundra, forests, glaciers, bears, wolves, moose and more. Some populat activites are biking, backpacking, hiking, and mountaineering",
+    denali: "Denali National Park is Preserved is located in the Alaskan wilderness and contains North America's tallest peak. It's home to tundra, forests, glaciers, bears, wolves, moose and more. Some populat activites are biking, backpacking, hiking, and mountaineering.",
     reykjavik: "Reykjavik is located in Iceland. It houses National and Saga museums about Iceland's Viking history. Hallgrimskirkja church and Perlan glass dome give a beatiful view of the sea, while the Blue Lagoon Spa exemlifies the island's volcanic activity",
     oslo : "Oslo, Norway is has a great many amount of green spaces and museums, with an emphasis on maritime and viking sites. It is also famous for its ski-jumping hills.",
     nyc: "New York City, USA is one of the world's major commerical, financial, and cultural centers. Some of its most famous sites include Broadway Theater and skyscrapers.",
@@ -47,11 +47,11 @@ const placeDescription = {
     pichhu: "Maccu Picchu, Peru was built in the 15th century and later abandoned. It contains many unqiue buildings with its use at the time remaining a mystety",
     cairo: "Cairo, Egypt is home to the Egyptian Museum and Tahrir Square with royal mummies and ancient artifacts. Cairo is home to the pyramids and the Great Sphinx, with a spectular view.",
     masaai: "Maasi Mara Natural Reserve in Kenya resembles the African wilderness and its wildlife. It's dotted with hills and plains along with the Maasai people that live there.",
-    london: "London is the famous capital of England that contains Big Ben, Houses of Parliament, and the British monarchs. The London Eye observation provides a view of the whole city and its beauty",
+    london: "London is the famous capital of England that contains Big Ben, Houses of Parliament, and the British monarchs. The London Eye observation provides a view of the whole city and its beauty.",
     singapore: "Singapore is the island nation with many unique city attractions",
     seattle: "Seattle, Washington is the largest city in Washington and is home Microsoft, Amazon and the Space Needle.",
     beijing: "Bejing China, known for its modern architecture along with its ancient sites such as the imperial palace. Bejing also houses the National Museum of China with many cultural relics.",
-    hawaii: "Hawaii is the only US State located off the mainland North America, and contains an archipelago of tropics",
+    hawaii: "Hawaii is the only US State located off the mainland North America, and contains an archipelago of tropics.",
     maldives: "The Maldives are commonly known as the sunny side of live, and are known for their great beaches and oceanside activites.",
     caribbean: "The Caribbean islands are known for their sandy beaches and fun party life style."
 };
