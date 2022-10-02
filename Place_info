@@ -90,7 +90,6 @@ function inputFunction(personPreference){
     document.getElementById("Description3").innerHTML = outputArrayDescription[2];
 
 
-
     return 0;
 }
 
