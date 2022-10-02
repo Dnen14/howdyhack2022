@@ -2,12 +2,13 @@
 <html lang="en">
 
   <head>
+    <link rel="stylesheet" href="actualSecond.css">
   </head> 
+
   
 
   
     <!-- <meta charset="utf-8">
-    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title> -->
@@ -29,7 +30,41 @@
             <h1 class="title" style="color: white;">Here's what we suggest!</h1><br>
           </div>
         </div>
-        <div id="app" class="row columns is-multiline">
+        <div class="about-grid"></div>
+        <ul class="list1"></ul>
+        <div id="app" class="row">
+          <div class="column">
+            <div v-for="card in cardData" key="card.id" class="column is-4">
+              <div class="card large">
+                <div class="card-image">
+                  <figure class="image is-16by9">
+                    <img :src="" alt="Image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-right">
+                      <figure class="image is-48x48">
+                        <img :src="card.avatar" alt="Image">
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-4 no-padding">Name of place</p>
+                      <p>
+                        <span class="title is-6">
+                          <a Name a> </span> </p>
+                      <p class="subtitle is-6">Info of places will be here</p>
+                    </div>
+                  </div>
+                  
+                  </div>
+                </div>
+                
+              </div>
+              
+            </div>
+        </div>
+        <div class="Second One"></div>
           <div v-for="card in cardData" key="card.id" class="column is-4">
             <div class="card large">
               <div class="card-image">
@@ -39,7 +74,7 @@
               </div>
               <div class="card-content">
                 <div class="media">
-                  <div class="media-left">
+                  <div class="media-right">
                     <figure class="image is-48x48">
                       <img :src="card.avatar" alt="Image">
                     </figure>
@@ -55,45 +90,26 @@
                 
                 </div>
               </div>
-
-            </figure>
-          </div>
-          <div class="card large">
-            <div class="card-image">
-              <figure class="image is-16by9">
-                <img :src="" alt="Image">
-          <div class="card-content">
-            <div class="media">
-              <div class="media-left">
-                <figure class="image is-48x48">
-                  <img :src="card.avatar" alt="Image">
-                </figure>
-              </div>
-              <div class="media-content">
-                <p class="title is-4 no-padding">Name of place</p>
-                <p>
-                  <span class="title is-6">
-                    <a Name a> </span> </p>
-                <p class="subtitle is-6">Info of places will be here</p>
-              </div>
+              
             </div>
             
-            </div>
           </div>
-            </div>
-          </div>
+      </div>
         </div>
-
+        
         
       </div>
+      
     </div>
+
+    
     <footer class="footer">
       
       <div class="container">
         <div class="content has-text-centered">
           
             
-             <a >By: Ryan, Sam, and Abhinav</a>
+             <a >We Have The Perfect Spot Before</a>
              
           </p>
         </div>
