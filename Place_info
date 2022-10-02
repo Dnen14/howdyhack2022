@@ -38,7 +38,6 @@ caribbean = ["Hot", "Beach", "Water Activities", "Surfing", "Fishing", "Scuba", 
 let array = [banff, denali, reykjavik, oslo, nyc, costa, canyon, cali, cancun, picchu, cairo, maasai, london, singarpore, seattle, beijing, 
 hawaii, maldives, caribbean];
 
-console.log(array);
 const placeDescription = {
     "Banff": "Banff National Park is located in the Canadian Rockies. It contains many special and easy access terrian including mountians, valleys, peaks, glaciers, forests, meadows and river.",
     "Denali": "Denali National Park is Preserved is located in the Alaskan wilderness and contains North America's tallest peak. It's home to tundra, forests, glaciers, bears, wolves, moose and more. Some populat activites are biking, backpacking, hiking, and mountaineering",
@@ -61,13 +60,11 @@ const placeDescription = {
     "Caribbean": "The Caribbean islands are known for their sandy beaches and fun party life style.",
 };
 
-console.log("Hi");
+console.log(array);
 
 
 
 
 
 
-
-let denali = [];
 
