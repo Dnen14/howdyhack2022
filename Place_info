@@ -55,8 +55,22 @@ const placeDescription = {
     "Maldives": "The Maldives are commonly known as the sunny side of live, and are known for their great beaches and oceanside activites.",
     "Caribbean": "The Caribbean islands are known for their sandy beaches and fun party life style.",
 };
-
-console.log(array);
+let iarray = []
+function inputFunction(personPreference){
+    const num = 0;
+    let outputArray = [];
+    for (let i = 0; i < 19; i++) {
+        for (let j = 0; j < array[i].length; j++) {
+            if(array[i][j].includes(personPreference)){
+                num++;
+                outputArray.push(array[i][j]);
+            }
+            if(num == 3){
+                break;
+            }
+    }
+}
+}
 
 
 
