@@ -11,31 +11,27 @@ const categories = ["Hot", "Cold", "Rainy", "Snowy", "Hiking",
 
 
 
-let placeList = [
+const banff = ["Cold", "Hiking", "Mountains", "Sight Seeing", "National Parks", "Water Activities"]
+const denali = ["Cold", "Hiking", "Sight Seeing", "Mountains"]
+const reykjavik = ["Cold", "Hiking", "Sight Seeing", "Mountains"]
+const oslo = ["Cold", "Museums", "Skiing", "Snowy", "Hiking", "Sight Seeing"]
+const nyc = ["Cold", "City", "Night Life"]
+const costa = ["Hot", "Hiking", "Relaxation", "Surfing", "Scuba", "Rain Forest"]
+const canyon = ["Hot", "Sight Seeing", "Hiking", "National Park"]
+const cali = ["Hot", "Beaches", "Hiking", "Fishing", "Surfing", ]
+const cancun = ["Hot", "Surfing", "Beaches", "Water Activities"]
+const picchu = ["Hot", "Rainy", "Sight Seeing", "Hiking", "Mountains", "Historic Sights"]
+const cairo = ["Hot", "Sight Seeing", "City", "Shopping", "Historic Sights"]
+const maasai = ["Hot", "Hiking", "Sight Seeing"]            //kenya
+const london = ["Rainy", "Shopping", "City", "Historic Sights", "Museums"]
+const singapore = ["Rainy", "Night Life", "City", "Beach", "Water Activities"]
+const seattle = ["Rainy", "City", "Night Life", "Water Activities"]
+const beijing = ["Rainy", "Night Life", "City", "Historic SIghts", "Museums"]
+const hawaii = ["Hot", "Rainy", "Beach", "Water Activities", "Surfing", "Fishing", "Scuba", "Mountains", "Hiking", "Night Life"]
+const maldives = ["Hot", "Beach", "Water Activities", "Surfing", "Fishing", "Scuba", "Night Life"]
+const caribbean = ["Hot", "Beach", "Water Activities", "Surfing", "Fishing", "Scuba", "Night Life"]
 
-
-banff = ["Cold", "Hiking", "Mountains", "Sight Seeing", "National Parks", "Water Activities"],
-denali = ["Cold", "Hiking", "Sight Seeing", "Mountains"],
-reykjavik = ["Cold", "Hiking", "Sight Seeing", "Mountains"],
-oslo = ["Cold", "Museums", "Skiing", "Snowy", "Hiking", "Sight Seeing"],
-nyc = ["Cold", "City", "Night Life"],
-costa = ["Hot", "Hiking", "Relaxation", "Surfing", "Scuba", "Rain Forest"],
-canyon = ["Hot", "Sight Seeing", "Hiking", "National Park"],
-cali = ["Hot", "Beaches", "Hiking", "Fishing", "Surfing", ],
-cancun = ["Hot", "Surfing", "Beaches", "Water Activities"],
-picchu = ["Hot", "Rainy", "Sight Seeing", "Hiking", "Mountains", "Historic Sights"],
-cairo = ["Hot", "Sight Seeing", "City", "Shopping", "Historic Sights"],
-maasai = ["Hot", "Hiking", "Sight Seeing"],                //kenya
-london = ["Rainy", "Shopping", "City", "Historic Sights", "Museums"],
-singapore = ["Rainy", "Night Life", "City", "Beach", "Water Activities"],
-seattle = ["Rainy", "City", "Night Life", "Water Activities"],
-beijing = ["Rainy", "Night Life", "City", "Historic SIghts", "Museums"],
-hawaii = ["Hot", "Rainy", "Beach", "Water Activities", "Surfing", "Fishing", "Scuba", "Mountains", "Hiking", "Night Life"],
-maldives = ["Hot", "Beach", "Water Activities", "Surfing", "Fishing", "Scuba", "Night Life"],
-caribbean = ["Hot", "Beach", "Water Activities", "Surfing", "Fishing", "Scuba", "Night Life"]
-]
-
-let array = [banff, denali, reykjavik, oslo, nyc, costa, canyon, cali, cancun, picchu, cairo, maasai, london, singarpore, seattle, beijing, 
+let array = [banff, denali, reykjavik, oslo, nyc, costa, canyon, cali, cancun, picchu, cairo, maasai, london, singapore, seattle, beijing, 
 hawaii, maldives, caribbean];
 
 const placeDescription = {
