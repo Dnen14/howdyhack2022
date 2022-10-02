@@ -2,24 +2,35 @@
 <html lang="en">
 
   <head>
-  </head> 
-  
-
-  
-    <!-- <meta charset="utf-8">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title> -->
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
-    <!-- <script src="https://kit.fontawesome.com/7dc3015a44.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
-    <script src = "Place_info"></script>
+    <script src="https://kit.fontawesome.com/7dc3015a44.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <link rel="stylesheet" href="../css/cards.css">
   </head>
 
   <body
-    style="background-color: lightseagreen;">
+  style="background-color: lightseagreen">
   
+   
+    <!-- START NAV -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <!-- <a class="navbar-item" href="#">
+            <img src="https://cdn.emk.dev/templates/bulma-logo-light.png" alt="Logo">
+          </a> -->
+          <span class="navbar-burger burger" data-target="navbarMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        </div>
+      </div>
+    </nav>
     <!-- END NAV -->
     <div class="container">
       <div class="section">
@@ -33,7 +44,7 @@
             <div class="card large">
               <div class="card-image">
                 <figure class="image is-16by9">
-                  <img :src="" alt="Image">
+                  <img :src="card.image" alt="Image">
                 </figure>
               </div>
               <div class="card-content">
@@ -44,62 +55,99 @@
                     </figure>
                   </div>
                   <div class="media-content">
-                    <p id = "Name1" class="title is-4 no-padding">Name of place</p>
+                    <p id = "Name1" class="title is-4 no-padding">Name of place variable</p>
                     <p>
                       <span class="title is-6">
-                        <a Name a> </span> </p>
-                    <p id = "Description1" class="subtitle is-6">Info of places will be here</p>
+                        <!-- <a :href=`http://twitter.com/${card.user.handle}`> Info of places will be here </a> </span> </p> -->
+                    <p id = "Description1" class="subtitle is-6">Texas is cool</p>
                   </div>
                 </div>
+                <div class="content">
                 
+                  <div class="background-icon"><span class="icon-twitter"></span></div>
                 </div>
               </div>
-
-            </figure>
+            </div>
           </div>
-          <div class="card large">
-            <div class="card-image">
-              <figure class="image is-16by9">
-                <img :src="" alt="Image">
-          <div class="card-content">
-            <div class="media">
-              <div class="media-left">
-                <figure class="image is-48x48">
-                  <img :src="card.avatar" alt="Image">
+          <div v-for="card in cardData" key="card.id" class="column is-4">
+            <div class="card large">
+              <div class="card-image">
+                <figure class="image is-16by9">
+                  <img :src="card.image" alt="Image">
                 </figure>
               </div>
-              <div class="media-content">
-                <p class="title is-4 no-padding">Name of place</p>
-                <p>
-                  <span class="title is-6">
-                    <a Name a> </span> </p>
-                <p class="subtitle is-6">Info of places will be here</p>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img :src="card.avatar" alt="Image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p id = "Name2" class="title is-4 no-padding">Name of place variable</p>
+                    <p>
+                      <span class="title is-6">
+                        <!-- <a :href=`http://twitter.com/${card.user.handle}`> Info of places will be here </a> </span> </p> -->
+                    <p id = "Description2" class="subtitle is-6">Texas is cool</p>
+                  </div>
+                </div>
+                <div class="content">
+                  
+                  <div class="background-icon"><span class="icon-twitter"></span></div>
+                </div>
               </div>
             </div>
-            
+          </div>
+          <div v-for="card in cardData" key="card.id" class="column is-4">
+            <div class="card large">
+              <div class="card-image">
+                <figure class="image is-16by9">
+                  <img :src="card.image" alt="Image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img :src="card.avatar" alt="Image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p id = "Name3" class="title is-4 no-padding">Name of place variable</p>
+                    <p>
+                      <span class="title is-6">
+                        <!-- <a :href=`http://twitter.com/${card.user.handle}`> Info of places will be here </a> </span> </p> -->
+                    <p id = "Description3" class="subtitle is-6">Texas is cool</p>
+                  </div>
+                </div>
+                <div class="content">
+                
+                  <div class="background-icon"><span class="icon-twitter"></span></div>
+                </div>
+              </div>
             </div>
           </div>
-            </div>
-          </div>
-        </div>
-
         
       </div>
     </div>
     <footer class="footer">
-      
       <div class="container">
         <div class="content has-text-centered">
-          
-            
-             <a >By: Ryan, Sam, and Abhinav</a>
-             
+          <!-- <div class="soc">
+            <a href="#"><i class="fa fa-github-alt fa-lg" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-youtube fa-lg" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+          </div> -->
+          <p>
+            <big><strong>We have the perfect spot for you!</strong></big><br><br>
+            <a href="https://earth.google.com/web/@0,0,0a,22251752.77375655d,35y,0h,0t,0r">Google Earth</a>
           </p>
         </div>
       </div>
     </footer>
 
-
+    <!-- <script src="../js/cardsData.js"></script> -->
 
     <!-- Using Vue to populate cards to reduce redundant code -->
     <!-- <script>

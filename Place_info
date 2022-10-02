@@ -82,12 +82,12 @@ function inputFunction(personPreference){
     }
 }
     document.getElementById("Name1").innerHTML = outputArrayName[0];
-    // document.getElementById("Name2").innerHTML = outputArrayName[1];
-    // document.getElementById("Name3").innerHTML = outputArrayName[2];
+    document.getElementById("Name2").innerHTML = outputArrayName[1];
+    document.getElementById("Name3").innerHTML = outputArrayName[2];
 
     document.getElementById("Description1").innerHTML = outputArrayDescription[0];
-    // document.getElementById("Description2").innerHTML = outputArrayDescription[1];
-    // document.getElementById("Description3").innerHTML = outputArrayDescription[2];
+    document.getElementById("Description2").innerHTML = outputArrayDescription[1];
+    document.getElementById("Description3").innerHTML = outputArrayDescription[2];
 
 
 
